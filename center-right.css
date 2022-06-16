@@ -1,0 +1,22 @@
+.cntr-RT-column {
+    padding-left: 90px;
+    padding-top: 45px;
+}
+
+.cntr-RT-column > .cntr-RT-txt-wrapper {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding-left: 17px;
+}
+
+.cntr-RT-column > .cntr-RT-txt-wrapper span {
+    color: #42b6f5;
+}
+
+.cntr-img-wrapper img {
+    padding-top: 3px;
+    height: 444px;
+    width: 555px;
+}
+

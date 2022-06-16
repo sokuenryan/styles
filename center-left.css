@@ -1,0 +1,59 @@
+.cntr-LT-column {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+/* Text Styles */
+.cntr-LT-column > .cntr-txt-wrapper > .txt1 {
+    font-size: 33px;
+    color: #cbcbcb;
+    font-family: "Assistant", sans-serif;
+    line-height: 33px;
+}
+
+.cntr-LT-column > .cntr-txt-wrapper > .txt1 span {
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+
+.cntr-LT-column > .cntr-txt-wrapper > .txt2 {
+    color: #b7b7b7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 14px;
+}
+
+/* Button Styles */
+.cntr-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 33vw;
+    padding-top: 15px;
+}
+
+.cntr-btn-wrapper > .btn-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3aed15;
+    width: 245px;
+    height: 60px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.cntr-btn-wrapper > .btn-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 3px;
+}

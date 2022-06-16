@@ -1,0 +1,25 @@
+body {
+    margin: 0%;
+}
+
+.header-wrapper {
+    display: flex;
+    background-color: #0c0d0e;
+    height: 80px;
+}
+
+.cntr-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: inset -452px -140px 800px 240px rgb(0 0 0 / 90%)
+}
+
+.spacer12 {
+    width: 12px;
+}
+
+.spacer100 {
+    background-color:#2b2b2d;
+    height: 80px;
+    width: 100%;
+}

@@ -1,0 +1,118 @@
+/* Left Column */
+.left-column > .CPLogo img {
+    width: 200px;
+    height: 40px;
+    margin: 25px 10px;
+}
+
+/* Center Column */
+.center-wrapper > .explore h1 {
+    display: flex;
+    color: yellow;
+    opacity: 90%;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 15px 0px 0px 0px;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+    font-size: 25px;
+}
+    
+
+.nav-elements > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.spark-drop {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 30px
+}
+
+.spark-drop h1 {
+    color: #cbcbcb;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.spark-drop i {
+    color: white;
+    margin-top: 15px;
+    margin-left: 12px;
+    opacity: 80%;
+    font-size: 10px;
+}
+
+/* Right Column */
+.right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 27vw;
+    padding-left: 150px;
+}
+
+
+.right-column > .btn-set-one > .create-btn {
+    padding-left: 180px;
+}
+
+.btn-set-one > .create-btn > .btn {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #39393c;
+    font-family: "Ubuntu Condensed", sans-serif;
+    padding: 10px 19px;
+    border: 1px solid #39393c;
+    border-radius: 3px;
+    width: 130px;
+    height: 60px;
+}
+
+
+.btn-set-one > .create-btn i {
+    color: #17c028;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 28px;
+}
+
+.right-column > .right-column-logo > .btn-column-logo i {
+    color: #777e88;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.btn-set-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-set-two > .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #39393c;
+    font-family: "Ubuntu Condensed", sans-serif;
+    border: 1px solid #39393c;
+    border-radius: 3px;
+    width: 100px;
+    height: 60px;
+}

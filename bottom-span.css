@@ -1,0 +1,24 @@
+.bttm-wrapper > .bttm-btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.bttm-wrapper > .bttm-btns > .btn {
+    background-color: #39393c;
+    border-color: #585958;
+    border-width: 2px;
+    width: 100%;
+    height: 65px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.bttm-wrapper > .bttm-btns > .btn span {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
